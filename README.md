@@ -16,8 +16,9 @@ A mobile-first building-rules assistant with concise answers, source references,
 The main challenge is helping users find accurate answers across lengthy building-rule documents and amendments while keeping responses short, fast, and supported by sources. The solution needs to retrieve the relevant information and show where the answer came from, even when the user has a slow internet connection.
 
 ## Dataset
-|Source|Link|Documents|Pages|Licence / terms|
-Tamil Nadu Combined Development and Building Rules, 2019|https://tnurbantree.tn.gov.in/wp-content/uploads/2020/06/TN_combined_development_building_rules_2019.pdf?utm_source=chatgpt.com|1|to be continued from pdf|Government rules document; check source terms before redistribution|
+| Source | Link | Documents | Pages | Licence / terms |
+|---|---|---|---|---|
+| <name> | <url> | <n> | <n> | <licence> |
 
 ## 10 real questions
 See [docs/QUESTIONS.md](docs/QUESTIONS.md).
