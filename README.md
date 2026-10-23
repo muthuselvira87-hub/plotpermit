@@ -17,7 +17,7 @@ The main challenge is helping users find accurate answers across lengthy buildin
 
 ## Dataset
 |Source|Link|Documents|Pages|Licence / terms|
-Tamil Nadu Combined Development and Building Rules, 2019
+Tamil Nadu Combined Development and Building Rules, 2019|https://tnurbantree.tn.gov.in/wp-content/uploads/2020/06/TN_combined_development_building_rules_2019.pdf?utm_source=chatgpt.com|1|to be continued from pdf|Government rules document; check source terms before redistribution|
 
 ## 10 real questions
 See [docs/QUESTIONS.md](docs/QUESTIONS.md).
