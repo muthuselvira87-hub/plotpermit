@@ -1,4 +1,4 @@
-# <Your product name>
+# <PLOTPERMIT (B-REG-09>
 
 > Fill this top section from your Examate project card on Day 1. Replace every line in angle brackets.
 
