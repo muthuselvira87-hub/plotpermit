@@ -16,16 +16,8 @@ A mobile-first building-rules assistant with concise answers, source references,
 The main challenge is helping users find accurate answers across lengthy building-rule documents and amendments while keeping responses short, fast, and supported by sources. The solution needs to retrieve the relevant information and show where the answer came from, even when the user has a slow internet connection.
 
 ## Dataset
-| Source                     |   Link    | Documents|   Pages  | Licence / terms |
-Tamil Nadu Combined          | To verify |To verify |To verify |    To verify    |
-Development and Building 
-Rules, 2019
-
-Relevant Government          | To verify |To verify |To verify |    To verify    |
-Order and amendments          
-
-DTCP circulars and related   | To verify |To verify |To verify |    To verify    |
-official documents
+|Source|Link|Documents|Pages|Licence / terms|
+Tamil Nadu Combined Development and Building Rules, 2019
 
 ## 10 real questions
 See [docs/QUESTIONS.md](docs/QUESTIONS.md).
