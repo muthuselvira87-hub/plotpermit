@@ -3,21 +3,29 @@
 > Fill this top section from your Examate project card on Day 1. Replace every line in angle brackets.
 
 ## Problem
-<3–5 sentences: who struggles with what today, and what your product changes.>
+Construction site engineers and small builders in Tamil Nadu may struggle to find the correct building regulations in lengthy documents. Rules, amendments, and circulars can be difficult to search while working at a construction site. PlotPermit aims to make this information easier to access through a mobile-friendly assistant. It will provide concise answers with references to the relevant source documents.
 
 ## Who it is for
-<One or two real user types, for example "compliance officer at a gold-loan NBFC in Coimbatore".>
+- Site engineers working on residential construction projects in Tirunelveli, Tamil Nadu.
+- Small builders who need quick access to building regulations
 
 ## Signature feature
-<One sentence: the feature only your product has.>
+A mobile-first building-rules assistant with concise answers, source references, and a Lite mode for low-bandwidth connections.
 
 ## Hardest problem (my interview story)
-<In your own words, from your project card.>
+The main challenge is helping users find accurate answers across lengthy building-rule documents and amendments while keeping responses short, fast, and supported by sources. The solution needs to retrieve the relevant information and show where the answer came from, even when the user has a slow internet connection.
 
 ## Dataset
-| Source | Link | Documents | Pages | Licence / terms |
-|---|---|---|---|---|
-| <name> | <url> | <n> | <n> | <licence> |
+| Source                     |   Link    | Documents|   Pages  | Licence / terms |
+Tamil Nadu Combined          | To verify |To verify |To verify |    To verify    |
+Development and Building 
+Rules, 2019
+
+Relevant Government          | To verify |To verify |To verify |    To verify    |
+Order and amendments          
+
+DTCP circulars and related   | To verify |To verify |To verify |    To verify    |
+official documents
 
 ## 10 real questions
 See [docs/QUESTIONS.md](docs/QUESTIONS.md).
