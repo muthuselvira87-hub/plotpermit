@@ -3,7 +3,6 @@ from google import genai
 
 from app.config import get_settings
 
-
 usage_stats = {
     "total_requests": 0,
     "input_tokens": 0,

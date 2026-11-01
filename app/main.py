@@ -4,8 +4,8 @@ from typing import Annotated
 from fastapi import Depends, FastAPI, HTTPException
 
 from app.config import Settings, get_settings
-from app.schemas import GenerateRequest, GenerateResponse
 from app.gemini_service import generate_response, usage_stats
+from app.schemas import GenerateRequest, GenerateResponse
 
 app = FastAPI(title="PlotPermit", version="0.1.0")
 
@@ -35,9 +35,12 @@ def generate(request: GenerateRequest) -> GenerateResponse:
         raise HTTPException(
             status_code=500,
             detail=f"LLM generation failed: {str(e)}"
-        )
+        ) from e
 
 
 @app.get("/usage")
 def get_usage() -> dict:
     return usage_stats
+
+
+
