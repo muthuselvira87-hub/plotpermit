@@ -6,13 +6,7 @@ from fastapi import Depends, FastAPI, HTTPException
 from app.config import Settings, get_settings
 from app.gemini_service import generate_response, usage_stats
 from app.rag_service import generate_rag_response
-from app.schemas import (
-    GenerateRequest,
-    GenerateResponse,
-    AskRequest,
-    AskResponse
-)
-
+from app.schemas import AskRequest, AskResponse, GenerateRequest, GenerateResponse
 
 app = FastAPI(title="PlotPermit", version="0.2.0")
 

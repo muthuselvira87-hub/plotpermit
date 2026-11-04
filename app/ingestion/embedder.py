@@ -1,4 +1,4 @@
-
+﻿
 import json
 import time
 from pathlib import Path
@@ -6,7 +6,6 @@ from pathlib import Path
 from google import genai
 
 from app.config import get_settings
-
 
 # Project paths
 BASE_DIR = Path(__file__).resolve().parents[2]
@@ -182,7 +181,7 @@ def main():
             encoding="utf-8"
         ) as output_file:
 
-            for chunk, vector in zip(batch, vectors):
+            for chunk, vector in zip(batch, vectors, strict=True):
 
                 record = {
                     **chunk,

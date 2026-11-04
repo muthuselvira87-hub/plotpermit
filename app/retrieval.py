@@ -6,7 +6,6 @@ from pgvector.psycopg import register_vector
 from app.config import get_settings
 from app.database import get_db_connection
 
-
 # Embedding configuration
 MODEL_NAME = "gemini-embedding-001"
 DIMENSIONS = 768

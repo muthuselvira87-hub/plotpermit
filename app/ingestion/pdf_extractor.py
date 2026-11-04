@@ -6,7 +6,6 @@ import pytesseract
 from pdf2image import convert_from_path
 from pypdf import PdfReader
 
-
 # ==========================================
 # PROJECT DIRECTORIES
 # ==========================================

@@ -5,7 +5,6 @@ from pgvector.psycopg import register_vector
 
 from app.database import get_db_connection
 
-
 EMBEDDINGS_FILE = "data/processed/embeddings.jsonl"
 
 
@@ -45,7 +44,7 @@ def insert_embeddings():
         skipped = 0
         cleaned = 0
 
-        with open(EMBEDDINGS_FILE, "r", encoding="utf-8") as file:
+        with open(EMBEDDINGS_FILE, encoding="utf-8") as file:
             with connection.cursor() as cursor:
 
                 for line in file:
